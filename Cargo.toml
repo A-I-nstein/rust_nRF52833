@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+    "a1_light", 
+    "a2_blink", 
+    "a3_light_all"
+    ]
+resolver = "2"
