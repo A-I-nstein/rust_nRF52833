@@ -53,6 +53,28 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7b7e4c2464d97fe331d41de9d5db0def0a96f4d823b8b32a2efd503578988973"
 
 [[package]]
+name = "b1_echo"
+version = "0.1.0"
+dependencies = [
+ "b1_utils",
+ "cortex-m",
+ "cortex-m-rt",
+ "heapless",
+ "microbit-v2",
+ "panic-rtt-target",
+ "rtt-target",
+]
+
+[[package]]
+name = "b1_utils"
+version = "0.1.0"
+dependencies = [
+ "cortex-m",
+ "embedded-io",
+ "microbit-v2",
+]
+
+[[package]]
 name = "bare-metal"
 version = "0.2.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -99,6 +121,7 @@ checksum = "8ec610d8f49840a5b376c69663b6369e71f4b34484b9b2eb29fb918d92516cb9"
 dependencies = [
  "bare-metal",
  "bitfield",
+ "critical-section",
  "embedded-hal 0.2.7",
  "volatile-register",
 ]
@@ -309,6 +332,17 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a513e167849a384b7f9b746e517604398518590a9142f4846a32e3c2a4de7b11"
 
 [[package]]
+name = "panic-rtt-target"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9a8116ffce1f89818647b84fba66d16cfdf3c0bee3c9320e606588d3e7415ce7"
+dependencies = [
+ "critical-section",
+ "portable-atomic",
+ "rtt-target",
+]
+
+[[package]]
 name = "portable-atomic"
 version = "1.10.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -337,6 +371,17 @@ name = "rand_core"
 version = "0.6.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c"
+
+[[package]]
+name = "rtt-target"
+version = "0.6.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4235cd78091930e907d2a510adb0db1369e82668eafa338f109742fa0c83059d"
+dependencies = [
+ "critical-section",
+ "portable-atomic",
+ "ufmt-write",
+]
 
 [[package]]
 name = "rustc_version"
@@ -390,6 +435,12 @@ name = "typenum"
 version = "1.18.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1dccffe3ce07af9386bfd29e80c0ab1a8205a2fc34e4bcd40364df902cfa8f3f"
+
+[[package]]
+name = "ufmt-write"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e87a2ed6b42ec5e28cc3b94c09982969e9227600b2e3dcbc1db927a84c06bd69"
 
 [[package]]
 name = "unicode-ident"

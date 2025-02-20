@@ -5,6 +5,8 @@ members = [
     "a2_blink", 
     "a3_light_all", 
     "a4_roulette",
-    "a4_roulette/a4_utils"
+    "a4_roulette/a4_utils",
+    "b1_echo",
+    "b1_echo/b1_utils"
     ]
 resolver = "2"

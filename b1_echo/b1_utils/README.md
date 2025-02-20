@@ -1,0 +1,1 @@
+library credits: [discovery-mb2](https://github.com/rust-embedded/discovery-mb2)
