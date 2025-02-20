@@ -1,11 +1,13 @@
 [package]
-name = "a3_light_all"
+name = "a4_roulette"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
 cortex-m-rt = "0.7.5"
-embedded-hal = "1.0.0"
 microbit-v2 = "0.15.1"
 panic-halt = "1.0.0"
 
+[dependencies.a4_utils]
+version = "0.1.0"
+path = "a4_utils"
