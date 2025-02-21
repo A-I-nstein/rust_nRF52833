@@ -1,12 +1,12 @@
 #![no_main]
 #![no_std]
 
-use b1_utils::UartePort;
 use cortex_m_rt::entry;
 use core::fmt::Write;
 use heapless::Vec;
 use microbit::{hal::{uarte::{Baudrate, Parity}, Uarte}, Board};
 use panic_rtt_target as _;
+use serial_utils::UartePort;
 use rtt_target::{rprintln, rtt_init_print};
 
 #[entry]
