@@ -31,3 +31,18 @@ Embedded Rust programs for the BBC micro:bit V2. Demonstrating practical applica
 - Connect the micro:bit to your computer.
 - Run command - probe-rs list
     - If the installations were successful, your board should show up here.
+
+### Components Explored
+- [ ] nRF52 Application Processor
+- [ ] Bluetooth Wireless Communication
+- [ ] Low level radio communications
+- [ ] Buttons
+- [x] Display
+- [ ] Motion sensor
+- [ ] Temperature sensing
+- [ ] Speaker
+- [ ] Microphone
+- [ ] General Purpose Input/Output Pins
+- [ ] nRF52833-QDAA Interface Chip
+- [ ] USB communications
+- [ ] Debugging
