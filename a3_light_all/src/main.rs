@@ -13,7 +13,7 @@ fn main() -> ! {
     let mut display = Display::new(board.display_pins);
     let display_state = [[1; 5]; 5];
 
-    loop{
+    loop {
         display.show(&mut timer, display_state, 1000);
         display.clear();
         timer.delay_ms(1000);

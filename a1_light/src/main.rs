@@ -13,5 +13,5 @@ fn main() -> ! {
     board.display_pins.row5.set_high().unwrap();
     board.display_pins.col5.set_low().unwrap();
 
-    loop{}
+    loop {}
 }

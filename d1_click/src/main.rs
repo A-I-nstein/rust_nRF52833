@@ -52,9 +52,8 @@ fn main() -> ! {
 fn GPIOTE() {
     cortex_m::interrupt::free(|cs| {
         if let Some(gpiote) = GPIO.borrow(cs).borrow().as_ref() {
-
-            for _ in 0..100000 { // Adjust the loop count as needed
-                cortex_m::asm::nop(); // A no-operation instruction
+            for _ in 0..100000 {
+                cortex_m::asm::nop();
             }
 
             let buttonapressed = gpiote.channel0().is_event_triggered();
@@ -67,7 +66,7 @@ fn GPIOTE() {
                 (true, true) => "A + B",
             };
             rprintln!("Button pressed {:?}", buttons_pressed);
-            
+
             gpiote.channel0().reset_events();
             gpiote.channel1().reset_events();
         }

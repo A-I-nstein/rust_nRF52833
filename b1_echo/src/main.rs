@@ -1,13 +1,19 @@
 #![no_main]
 #![no_std]
 
-use cortex_m_rt::entry;
 use core::fmt::Write;
+use cortex_m_rt::entry;
 use heapless::Vec;
-use microbit::{hal::{uarte::{Baudrate, Parity}, Uarte}, Board};
+use microbit::{
+    hal::{
+        uarte::{Baudrate, Parity},
+        Uarte,
+    },
+    Board,
+};
 use panic_rtt_target as _;
-use serial_utils::UartePort;
 use rtt_target::{rprintln, rtt_init_print};
+use serial_utils::UartePort;
 
 #[entry]
 fn main() -> ! {
@@ -18,7 +24,7 @@ fn main() -> ! {
             board.UARTE0,
             board.uart.into(),
             Parity::EXCLUDED,
-            Baudrate::BAUD115200
+            Baudrate::BAUD115200,
         );
         UartePort::new(serial)
     };
@@ -27,7 +33,7 @@ fn main() -> ! {
     loop {
         buffer.clear();
         let mut input: u8 = serial.read().unwrap();
-        
+
         while input != 13 {
             let input_char = input as char;
             serial.write(input_char as u8).unwrap();
@@ -40,11 +46,11 @@ fn main() -> ! {
 
         rprintln!("{:?}", buffer);
         write!(serial, "\r\n").unwrap();
-        for byte in buffer.iter(){
+        for byte in buffer.iter() {
             write!(serial, "{}", *byte).unwrap();
         }
         write!(serial, "\r\n").unwrap();
-        
+
         serial.flush().unwrap();
     }
 }

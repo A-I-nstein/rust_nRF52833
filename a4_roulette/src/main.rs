@@ -16,10 +16,11 @@ fn main() -> ! {
         direction: Direction::Right,
     };
 
-    let mut display_state: [[u8; 5]; 5] = [[0; DisplayData::GRID_SIZE as usize]; DisplayData::GRID_SIZE as usize];
+    let mut display_state: [[u8; 5]; 5] =
+        [[0; DisplayData::GRID_SIZE as usize]; DisplayData::GRID_SIZE as usize];
     display_state[display_data.curr_pos.0 as usize][display_data.curr_pos.1 as usize] = 1;
 
-    loop{
+    loop {
         display_state[display_data.curr_pos.0 as usize][display_data.curr_pos.1 as usize] = 0;
         display_data.get_next_pos();
         display_state[display_data.curr_pos.0 as usize][display_data.curr_pos.1 as usize] = 1;
