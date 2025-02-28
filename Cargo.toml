@@ -7,6 +7,7 @@ members = [
     "a4_roulette/a4_utils",
     "serial_utils",
     "b1_echo",
-    "c1_sensors"
+    "c1_sensors",
+    "d1_click"
     ]
 resolver = "2"

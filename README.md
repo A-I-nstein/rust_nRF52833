@@ -36,13 +36,13 @@ Embedded Rust programs for the BBC micro:bit V2. Demonstrating practical applica
 - [ ] nRF52 Application Processor
 - [ ] Bluetooth Wireless Communication
 - [ ] Low level radio communications
-- [ ] Buttons
+- [x] Buttons
 - [x] Display
-- [ ] Motion sensor
+- [x] Motion sensor
 - [ ] Temperature sensing
 - [ ] Speaker
 - [ ] Microphone
 - [ ] General Purpose Input/Output Pins
 - [ ] nRF52833-QDAA Interface Chip
-- [ ] USB communications
+- [x] USB communications
 - [ ] Debugging
