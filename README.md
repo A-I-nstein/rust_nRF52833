@@ -41,7 +41,7 @@ Embedded Rust programs for the BBC micro:bit V2. Demonstrating practical applica
 - [x] Motion sensor
 - [ ] Temperature sensing
 - [ ] Speaker
-- [ ] Microphone
+- [x] Microphone
 - [ ] General Purpose Input/Output Pins
 - [ ] nRF52833-QDAA Interface Chip
 - [x] USB communications
