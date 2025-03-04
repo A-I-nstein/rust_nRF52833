@@ -8,6 +8,7 @@ members = [
     "serial_utils",
     "b1_echo",
     "c1_sensors",
-    "d1_click"
+    "d1_click",
+    "e1_microphone"
     ]
 resolver = "2"

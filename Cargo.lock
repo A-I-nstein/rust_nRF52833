@@ -179,6 +179,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "e1_microphone"
+version = "0.1.0"
+dependencies = [
+ "cortex-m-rt",
+ "microbit-v2",
+ "panic-halt",
+ "rtt-target",
+]
+
+[[package]]
 name = "embedded-dma"
 version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
