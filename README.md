@@ -9,6 +9,11 @@ Embedded Rust programs for the BBC micro:bit V2. Demonstrating practical applica
     - Run command to run in dev profile - cargo run
     - Run command to run in release profile - cargo run --release
 
+## How to run the nrf-hal implementations?
+- The implementation that uses nrf-hal instead of microbit-v2 is present in the examples folder
+- Use cargo to run the program
+    - Run command - cargo run --example {program name} --release
+
 ## Prerequisites
 
 ### Hardware
