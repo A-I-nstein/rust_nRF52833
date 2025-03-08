@@ -2,7 +2,10 @@
 #![no_main]
 
 use cortex_m_rt::entry;
-use nrf52833_hal::{gpio::{p0, Level}, pac::Peripherals};
+use nrf52833_hal::{
+    gpio::{p0, Level},
+    pac::Peripherals,
+};
 use panic_halt as _;
 
 #[entry]

@@ -3,7 +3,11 @@
 
 use cortex_m_rt::entry;
 use embedded_hal::{delay::DelayNs, digital::OutputPin};
-use nrf52833_hal::{gpio::{p0, Level}, pac::Peripherals, timer};
+use nrf52833_hal::{
+    gpio::{p0, Level},
+    pac::Peripherals,
+    timer,
+};
 use panic_halt as _;
 
 #[entry]
