@@ -38,7 +38,7 @@ Embedded Rust programs for the BBC micro:bit V2. Demonstrating practical applica
     - If the installations were successful, your board should show up here.
 
 ### Components Explored
-- [ ] nRF52 Application Processor
+- [x] nRF52 Application Processor
 - [ ] Bluetooth Wireless Communication
 - [ ] Low level radio communications
 - [x] Buttons
@@ -47,7 +47,7 @@ Embedded Rust programs for the BBC micro:bit V2. Demonstrating practical applica
 - [ ] Temperature sensing
 - [ ] Speaker
 - [x] Microphone
-- [ ] General Purpose Input/Output Pins
+- [x] General Purpose Input/Output Pins
 - [ ] nRF52833-QDAA Interface Chip
 - [x] USB communications
 - [ ] Debugging
