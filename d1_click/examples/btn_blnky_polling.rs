@@ -8,8 +8,11 @@ use nrf52833_hal::{
     pac::Peripherals,
 };
 use panic_rtt_target as _;
+use rtt_target::{rprintln, rtt_init_print};
+
 #[entry]
 fn main() -> ! {
+    rtt_init_print!();
     let peripherals = Peripherals::take().unwrap();
     let gpio_p0 = p0::Parts::new(peripherals.P0);
     let _pin_p0_19 = gpio_p0.p0_19.into_push_pull_output(Level::High);
@@ -17,6 +20,7 @@ fn main() -> ! {
     let mut pin_p0_14 = gpio_p0.p0_14.into_pullup_input();
 
     let mut blnk_dly = 1_000_000_u32;
+    rprintln!("Press button A!");
 
     loop {
         for _i in 0..blnk_dly {
