@@ -5,3 +5,5 @@ This program lights up one of the LEDs on the board and makes it blink continuou
 ## nrf-hal
 
 The nrf-hal implementation is available in the examples folder.
+- Blinky with nrf-hal
+- A variation of blink in nrf-hal

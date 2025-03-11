@@ -8,3 +8,4 @@ The following nrf-hal implementations are available in the examples folder:
 - Button controlled LED blinking (polling)
 - Button controlled LED blinking (interrupt)
 - Button press counter (interrupt)
+- Button press counter (interrupt, completely runs on ISR)
