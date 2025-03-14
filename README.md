@@ -1,5 +1,5 @@
 # rust_nRF52833
-Embedded Rust programs for the nRF52833. Demonstrating practical applications and learning resources.
+Embedded Rust programs for the nRF52833 SoC. Demonstrating practical applications and learning resources.
 
 ## How to run the programs?
 - Install / prepare the prerequisites.
