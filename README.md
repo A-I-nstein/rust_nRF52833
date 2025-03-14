@@ -1,9 +1,9 @@
-# rust_micro-bit_v2
-Embedded Rust programs for the BBC micro:bit V2. Demonstrating practical applications and learning resources.
+# rust_nRF52833
+Embedded Rust programs for the nRF52833. Demonstrating practical applications and learning resources.
 
 ## How to run the programs?
 - Install / prepare the prerequisites.
-- Connect the micro:bit to your computer.
+- Connect the developer board to your computer.
 - Move into the required project.
 - Use cargo to run the program - [Run Guide](https://doc.rust-lang.org/book/ch14-01-release-profiles.html)
     - Run command to run in dev profile - cargo run
