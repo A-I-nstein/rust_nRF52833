@@ -38,16 +38,18 @@ Embedded Rust programs for the nRF52833 SoC. Demonstrating practical application
     - If the installations were successful, your board should show up here.
 
 ### Components Explored
-- [x] nRF52 Application Processor
-- [ ] Bluetooth Wireless Communication
-- [ ] Low level radio communications
+- [x] GPIO
+- [x] ADCs
+- [x] Timers and Counters
+- [ ] PWM
+- [x] Serial Communication
+
+### Peripherals Explored
+- [x] LED Display
 - [x] Buttons
-- [x] Display
 - [x] Motion sensor
 - [ ] Temperature sensing
 - [ ] Speaker
 - [x] Microphone
-- [x] General Purpose Input/Output Pins
-- [ ] nRF52833-QDAA Interface Chip
-- [x] USB communications
-- [ ] Debugging
+- [ ] Bluetooth Wireless Communication
+- [ ] Low level radio communications
