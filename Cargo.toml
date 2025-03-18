@@ -5,10 +5,11 @@ members = [
     "a3_light_all", 
     "a4_roulette",
     "a4_roulette/a4_utils",
-    "serial_utils",
     "b1_echo",
     "c1_sensors",
     "d1_click",
-    "e1_microphone"
-    ]
+    "e1_microphone",
+    "microbit-display",
+    "serial_utils"
+]
 resolver = "2"
