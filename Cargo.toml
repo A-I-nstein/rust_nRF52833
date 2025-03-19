@@ -9,7 +9,6 @@ members = [
     "c1_sensors",
     "d1_click",
     "e1_microphone",
-    "microbit-display",
     "serial_utils"
 ]
 resolver = "2"

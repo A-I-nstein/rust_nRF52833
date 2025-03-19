@@ -4,7 +4,10 @@
 use cortex_m_rt::entry;
 use embedded_hal::delay::DelayNs;
 use nrf52833_hal::{
-    gpio::{p0, Level, OpenDrainConfig}, pac::Peripherals, saadc::SaadcConfig, timer, Saadc
+    gpio::{p0, Level, OpenDrainConfig},
+    pac::Peripherals,
+    saadc::SaadcConfig,
+    timer, Saadc,
 };
 use panic_halt as _;
 use rtt_target::{rprintln, rtt_init_print};

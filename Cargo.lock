@@ -342,10 +342,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "microbit-display"
-version = "0.1.0"
-
-[[package]]
 name = "microbit-v2"
 version = "0.15.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
