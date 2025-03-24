@@ -1,14 +1,15 @@
 [workspace]
 members = [
-    "a1_light", 
-    "a2_blink", 
-    "a3_light_all", 
+    "a1_light",
+    "a2_blink",
+    "a3_light_all",
     "a4_roulette",
     "a4_roulette/a4_utils",
     "b1_echo",
     "c1_sensors",
     "d1_click",
     "e1_microphone",
-    "serial_utils"
+    "f1_real_time_timer",
+    "serial_utils",
 ]
 resolver = "2"
