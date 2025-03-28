@@ -111,9 +111,9 @@ fn main() -> ! {
                 time.show_time();
             }
             if TIMER_RESET_FLAG.borrow(cs).get() {
-                time.reset();
-                IS_TIMER_RUNNING.borrow(cs).set(false);
                 TIMER_RESET_FLAG.borrow(cs).set(false);
+                IS_TIMER_RUNNING.borrow(cs).set(false);
+                time.reset();
             }
         });
     }
