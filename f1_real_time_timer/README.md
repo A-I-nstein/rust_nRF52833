@@ -6,3 +6,4 @@ This program replicates a real-time timer, showing the elapsed time from start.
 
 The following nrf-hal implementations are available in the examples folder:
 - A complete real-time timer with start, stop and reset controls. 
+- A whack-a-mole game that measure the user's response time.
