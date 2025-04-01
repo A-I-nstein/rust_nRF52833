@@ -259,6 +259,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "g1_led_fading"
+version = "0.1.0"
+dependencies = [
+ "cortex-m-rt",
+ "nrf52833-hal",
+ "panic-halt",
+]
+
+[[package]]
 name = "half"
 version = "2.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"

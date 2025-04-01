@@ -1,0 +1,9 @@
+[package]
+name = "g1_led_fading"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cortex-m-rt = "0.7.5"
+nrf52833-hal = "0.18.0"
+panic-halt = "1.0.0"

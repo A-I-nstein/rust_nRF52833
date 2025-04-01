@@ -10,6 +10,7 @@ members = [
     "d1_click",
     "e1_microphone",
     "f1_real_time_timer",
+    "g1_led_fading",
     "serial_utils",
 ]
 resolver = "2"

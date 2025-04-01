@@ -41,7 +41,7 @@ Embedded Rust programs for the nRF52833 SoC. Demonstrating practical application
 - [x] GPIO
 - [x] ADCs
 - [x] Timers and Counters
-- [ ] PWM
+- [x] PWM
 - [x] Serial Communication
 
 ### Peripherals Explored
