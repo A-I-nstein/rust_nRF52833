@@ -263,6 +263,7 @@ name = "g1_led_fading"
 version = "0.1.0"
 dependencies = [
  "cortex-m-rt",
+ "embedded-hal 1.0.0",
  "nrf52833-hal",
  "panic-halt",
 ]
