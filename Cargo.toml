@@ -11,6 +11,7 @@ members = [
     "e1_microphone",
     "f1_real_time_timer",
     "g1_led_fading",
+    "h1_buzzer",
     "serial_utils",
 ]
 resolver = "2"
