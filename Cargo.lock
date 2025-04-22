@@ -308,6 +308,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "i1_uart_console"
+version = "0.1.0"
+dependencies = [
+ "cortex-m-rt",
+ "nrf52833-hal",
+ "panic-halt",
+]
+
+[[package]]
 name = "lsm303agr"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"

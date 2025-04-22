@@ -12,6 +12,7 @@ members = [
     "f1_real_time_timer",
     "g1_led_fading",
     "h1_buzzer",
+    "i1_uart_console",
     "serial_utils",
 ]
 resolver = "2"

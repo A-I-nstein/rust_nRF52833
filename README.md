@@ -49,7 +49,7 @@ Embedded Rust programs for the nRF52833 SoC. Demonstrating practical application
 - [x] Buttons
 - [x] Motion sensor
 - [ ] Temperature sensing
-- [ ] Speaker
+- [x] Speaker
 - [x] Microphone
 - [ ] Bluetooth Wireless Communication
 - [ ] Low level radio communications
