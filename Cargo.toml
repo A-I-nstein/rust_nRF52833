@@ -14,5 +14,6 @@ members = [
     "h1_buzzer",
     "i1_uart_console",
     "serial_utils",
+    "z1_embassy_blinky",
 ]
 resolver = "2"
