@@ -999,3 +999,17 @@ dependencies = [
  "panic-halt",
  "rtt-target",
 ]
+
+[[package]]
+name = "z3_embassy_led_cycling"
+version = "0.1.0"
+dependencies = [
+ "cortex-m",
+ "cortex-m-rt",
+ "embassy-executor",
+ "embassy-nrf",
+ "embassy-sync",
+ "embassy-time",
+ "panic-halt",
+ "rtt-target",
+]

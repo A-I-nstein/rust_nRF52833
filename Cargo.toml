@@ -15,6 +15,6 @@ members = [
     "i1_uart_console",
     "serial_utils",
     "z1_embassy_blinky",
-    "z2_embassy_timer",
+    "z2_embassy_timer", "z3_embassy_led_cycling",
 ]
 resolver = "2"
