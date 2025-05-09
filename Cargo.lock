@@ -1027,3 +1027,16 @@ dependencies = [
  "panic-halt",
  "rtt-target",
 ]
+
+[[package]]
+name = "z5_embassy_click_counter"
+version = "0.1.0"
+dependencies = [
+ "cortex-m",
+ "cortex-m-rt",
+ "embassy-executor",
+ "embassy-nrf",
+ "embassy-sync",
+ "panic-halt",
+ "rtt-target",
+]
