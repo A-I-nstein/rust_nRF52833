@@ -1013,3 +1013,17 @@ dependencies = [
  "panic-halt",
  "rtt-target",
 ]
+
+[[package]]
+name = "z4_embassy_uart_echo"
+version = "0.1.0"
+dependencies = [
+ "cortex-m",
+ "cortex-m-rt",
+ "embassy-executor",
+ "embassy-nrf",
+ "embassy-sync",
+ "embassy-time",
+ "panic-halt",
+ "rtt-target",
+]
