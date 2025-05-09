@@ -16,7 +16,7 @@ fn main() -> ! {
             p.UARTE0,
             uarte::Pins {
                 txd: p0.p0_06.into_push_pull_output(gpio::Level::High).degrade(),
-                rxd: p0.p0_08.into_floating_input().degrade(),
+                rxd: p0.p1_08.into_floating_input().degrade(),
                 cts: None,
                 rts: None,
             },
